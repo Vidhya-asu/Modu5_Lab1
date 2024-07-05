@@ -1,4 +1,4 @@
-Module 4 LAB 1: Protecting Resources
+Module 5 Lab 1: 
 
 The aim of this project is to install have Visual Studio Code with REST Client Plugin installed.
 Basic understanding of RESTful APIs and HTTP methods. 
