@@ -18,6 +18,10 @@ const mongoose = require('mongoose');
 //const app = require('./server');
 
 app.use(myMiddleware); // Application-level middleware
+app.get('/', (req, res) => {
+  res.send('Hello World');
+});
+
 
 const port = process.env.PORT || 3000;
 const server = app.listen(port, () => {
